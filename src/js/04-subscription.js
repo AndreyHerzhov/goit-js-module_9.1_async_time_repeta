@@ -13,7 +13,7 @@ let promptCounter = 0;
 let hasSubscribed = false;
 const modal = new BSN.Modal('#exampleModal')
 
-openModal()
+// openModal()
 
  refs.modal.addEventListener('hidden.bs.modal', () => {
   openModal()
@@ -42,20 +42,4 @@ openModal()
 
 
 
-setTimeout(() => {
-    modal.show()
-}, PROMPT_DELAY);
-
-// let promptCounter = 0;
-// let hasSubscribed = false;
-
-
-// const intervalId = setInterval(() => {
-//     if(promptCounter === MAX_PROMPT_ATTEMPTS) {
-//         console.log('Нужно остановить интервал');
-//         clearInterval(intervalId)
-//         return
-//     }
-//     console.log('Подпишись на рассылку! - ' + Date.now())
-//     promptCounter += 1;
-// }, PROMPT_DELAY);
+ 
