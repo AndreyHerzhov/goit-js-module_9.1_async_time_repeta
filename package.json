@@ -1,0 +1,30 @@
+{
+  "name": "js-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/*.html",
+    "build": "parcel build src/*.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://andreyherzhov.github.io/goit-js-module_9.1_async_time_repeta.git"
+  },
+  "keywords": [],
+  "author": "Andrew HErzhov <andreyherzhov@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://andreyherzhov.github.io/goit-js-module_9.1_async_time_repeta/issues"
+  },
+  "homepage": "https://andreyherzhov.github.io/goit-js-module_9.1_async_time_repeta#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-nuke-dist": "^1.0.1"
+  },
+  "dependencies": {
+    "bootstrap.native": "^3.0.15",
+    "lodash.throttle": "^4.1.1",
+    "timers": "^0.1.1"
+  }
+}
