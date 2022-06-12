@@ -45,3 +45,7 @@ console.log(shouldCancelTimer)
 if(shouldCancelTimer) {
     clearTimeout(timerId)
 }
+
+setTimeout(() => {
+    
+}, timeout);
